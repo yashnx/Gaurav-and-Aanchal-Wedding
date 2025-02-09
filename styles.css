@@ -1,0 +1,115 @@
+/* Google Fonts (example) */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
+
+/* 
+  Color Palette Example:
+  - Maroon: #6e0b14 (deep maroon)
+  - Gold: #dab65d or #f0c040 (choose a gold shade you like)
+  - White / Off-White: #ffffff or #faf3e6 (slightly off-white)
+*/
+
+/* Base body styling */
+body {
+  background-color: #fdf4dc; /* off-white background */
+  font-family: 'Open Sans', sans-serif;
+  color: #333; 
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ================= Navbar ================= */
+.navbar {
+  background-color: #6e0b14; /* maroon */
+  border-bottom: 3px solid #dab65d; /* subtle gold border at bottom of navbar */
+}
+
+.navbar-brand img {
+  height: 80px; /* increased logo size */
+  width: auto;
+}
+
+.nav-link {
+  color: #fff !important; 
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #dab65d !important; /* gold on hover */
+}
+
+/* ================= Section Headings ================= */
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #6e0b14; /* maroon text for titles */
+}
+
+/* ================= Buttons ================= */
+.custom-btn {
+  background-color: #6e0b14; /* maroon */
+  color: #dab65d; /* gold text */
+  border: 2px solid #dab65d;
+  border-radius: 20px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #dab65d; /* gold fill */
+  color: #6e0b14; /* maroon text */
+}
+
+/* ================= Wedding Itinerary Styling ================= */
+.itinerary-item {
+  margin-bottom: 1.2rem;
+}
+.itinerary-item h4 {
+  color: #6e0b14;
+  margin-bottom: 0.2rem;
+}
+
+/* ================= Image placeholders ================= */
+.dummy-img {
+  background-color: #eee;
+  width: 100%;
+  height: 200px;
+  display: block;
+  border: 2px dashed #ccc;
+  margin-bottom: 1rem;
+}
+
+/* ================= Section Backgrounds ================= */
+/* If you want some sections to have a white background, 
+   and some to keep the off-white, you can do so below:
+*/
+section {
+  background-color: #fff;
+  padding: 3rem 0; 
+}
+section#section2 {
+  background-color: #f8f8f8; /* slightly different shade for variety */
+}
+
+/* Adjust as desired for each section, or remove these to keep everything uniform */
+
+/* ================= Footer ================= */
+footer {
+  background-color: #6e0b14; /* maroon */
+  color: #dab65d;           /* gold */
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 0; 
+}
+
+footer p {
+  margin: 0.2rem 0;
+}
